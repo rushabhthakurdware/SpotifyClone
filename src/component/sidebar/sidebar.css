@@ -1,0 +1,119 @@
+.sidebarMainSection{
+    /* border:1px solid white; */
+    width: 20%;
+    border-radius: 10px;
+    background-image: linear-gradient(to  bottom,#151010,#151010, #0a0c0a);
+    height: 98%;
+
+}
+.sidebarTopSection{
+    /* border: 1px solid red; */
+    height: 15%;
+    border-top-right-radius:10px ;
+    border-top-left-radius:10px ;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 1px 1px 10px rgba(13, 13, 13, 0.5);
+
+    
+}
+.sidebarTopSection h1{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-left: 0.5rem;
+}
+.sidebarTopSection p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 1rem;
+
+}
+.sidebarMiddleSection{
+    height:35%;
+    /* border: 1px solid red; */
+    overflow-y: scroll;
+
+}
+.sidenameMiddleCards{
+    /* border: 1px solid red; */
+    margin: 1.5rem  0.5rem;
+    padding:1rem ;
+    border-radius: 10px;
+    background-color: rgb(75, 75, 75);
+}
+.sidebarMiddleSection h1{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.sidebarMiddleSection p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+
+}
+.sidebarMiddleSection button{
+     background-color:  rgb(255, 255, 255);
+    color: black;
+    font-size: 1rem;
+    /* font-weight: 600; */
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    border: none; 
+
+}
+*::-webkit-scrollbar {
+    display:none; 
+}
+
+.sidebarBottomSectopContainer{
+    display:flex ;
+    flex-wrap: wrap;
+    padding:0.7rem;
+    padding-bottom: 1rem;
+    margin-left: 0.1rem;
+}
+ .sidebarBottomSectopContainer p{
+margin:0.7rem;
+font-size:0.8rem;
+
+}
+.sidebarBottomSecBottomContainer {
+    /* border:2px solid green; */
+} 
+
+.sidebarBottomSecBottomContainer p{
+    margin:0.7rem;
+    font-size:1rem;
+    color: white;
+    font-weight: 600;
+    margin-left: 1.6rem;
+    margin-bottom: 0.5rem;
+
+}
+.sidebarBottomSecBottomContainer button{
+    background-color:  #151010;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-left: 4rem;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    padding-top: 7px;
+    border: none; 
+    cursor: pointer;
+    margin-top: 0.5rem;
+
+}

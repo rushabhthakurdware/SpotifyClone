@@ -1,0 +1,69 @@
+.ArtistCardMainContainer{
+    /* border: 1px solid #e0e0e0; */
+    display:flex;
+
+}
+
+
+.ArtistCardContainer{
+    width:20% ;
+
+    /* border:2px solid #e0e0e0; */
+    
+}
+.ArtistCardContainer img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    padding:10px 10px 10px 10px;
+}
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+}
+.textContainer p{
+    font-size: 14px;
+    color: #b3b3b3;
+    margin: 0;
+    padding: 0;
+}
+.ArtistCardContainer:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgb(36, 36, 36);
+    transition: all 0.3s ease-in-out;
+}
+.ArtistCardContainer span {
+    /* font-size: 16px; */
+    background-color: #1ED760;
+    /* color: #fe0c0c; */
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 70px;
+    left:130px;
+    display: none;
+
+    
+}
+.ArtistCardContainer span svg{
+    height:50%;
+    width:50%;
+    /* margin-left:5rem; */
+}
+.ArtistCardContainer:hover span{
+    display: flex;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}

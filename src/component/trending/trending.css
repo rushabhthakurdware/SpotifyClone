@@ -1,0 +1,13 @@
+.trendingSectionMainContainer{
+    /* border: 1px solid #d514a8; */
+    width: 98%;
+    height: 75%;
+    margin:auto;
+    padding:1rem 0;
+    /*  */
+
+}
+.trendingSectionMainContainer span{
+    font-size: larger;
+    font-weight: bolder;
+}

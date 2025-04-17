@@ -1,0 +1,13 @@
+.mainSectionContainer {
+  /* border:1px solid red;   */
+  display: flex;
+  height:80%;
+  justify-content: space-evenly;
+  
+}
+.mainContainer{
+  /* border:1px solid blue; */
+  height: 100vh;
+
+
+}
